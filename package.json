@@ -1,0 +1,29 @@
+{
+  "name": "bljedina",
+  "version": "1.0.0",
+  "description": "This packaged designed to play alarm sound after right after the installation. Please, use with caution",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drag13/bljedina.git"
+  },
+  "keywords": [
+    "bljedina",
+    "postinstall",
+    "sound",
+    "alarm",
+    "airalarm"
+  ],
+  "author": "drag13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Drag13/bljedina/issues"
+  },
+  "homepage": "https://github.com/Drag13/bljedina#readme",
+  "dependencies": {
+    "play-sound": "^1.1.5"
+  }
+}
